@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>PORTFOLIO</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/monokai.css">
+</head>
+<style>
+	a{
+		text-decoration: none;
+		color: inherit;
+	}
+	.se{
+		transition: all 0.7s;
+	}
+	.se:hover{
+		background-color: #000;
+		color: #fff;
+	}
+</style>
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-background="img/zzzz.png">
+				<div style="display: flex; justify-content: space-between;">
+					<div>
+						<img src="img/Nintendo.png" alt="/" style="width: 450px;">
+						<p style="position: absolute; left: 180px; bottom: 60px; font-size: 20px; font-weight: 600; color: #777;">Nintendo Switch</p>
+						<div class="se" style="width:90px; height: 30px; border: 1px solid #000;font-weight: 600; border-radius: 10px; line-height: 28px; margin-left: 211px;">
+							<a href="https://dudwls6661.github.io/Switch/" target="_blank">Website</a>
+						</div>
+					</div>
+					<div>
+						<img src="img/software.png" alt="/" style="width: 450px;">
+						<p style="font-size: 20px; font-weight: 600; color: #777; position: absolute; right: 100px; bottom: 60px;">Nintendo Software</p>
+						<div class="se" style="width:90px; height: 30px; border: 1px solid #000;font-weight: 600; border-radius: 10px; line-height: 28px; margin-left: 213px;">
+							<a href="https://dudwls6661.github.io/software/" target="_blank">Website</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<script src="js/reveal.js"></script>
+	<script src="js/notes.js"></script>
+	<script src="js/markdown.js"></script>
+	<script src="js/highlight.js"></script>
+	<script>
+
+		Reveal.initialize({
+			hash: true,
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>
